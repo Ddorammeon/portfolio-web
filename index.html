@@ -35,7 +35,9 @@
           <li>Posts and Telecommunications Institute of Technology</li>
         </ul>
       </div>
-      <div class="info empty"></div>
+      <div class="info empty">
+        <button id="contactMeBtn">Contact Me</button>
+      </div>
       <div class="info education">
         <h2>EDUCATION</h2>
         <ul>
@@ -212,5 +214,11 @@
           overlay.style.display = "none";
         });
     });
+
+    document
+      .getElementById("contactMeBtn")
+      .addEventListener("click", function () {
+        window.location.href = "contact.html"; // Đổi thành trang bạn muốn chuyển đến
+      });
   </script>
 </html>

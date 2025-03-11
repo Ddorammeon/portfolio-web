@@ -157,3 +157,19 @@ h2 {
   cursor: pointer;
   border-radius: 5px;
 }
+
+#contactMeBtn {
+  padding: 10px 20px;
+  background-color: white;
+  color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 5px 20px #858585;
+}
+
+#contactMeBtn:hover {
+  background-color: #e6e6e6;
+}
